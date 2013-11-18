@@ -1,0 +1,18 @@
+settings = {
+  orientation =
+  {
+    default = "portrait",
+    supported =
+    {
+      "portrait",
+    },
+  },
+  android =
+	{
+	    usesPermissions =
+	    {
+	        "android.permission.CAMERA",
+	        "android.permission.WRITE_EXTERNAL_STORAGE",
+	    },
+	},
+}
